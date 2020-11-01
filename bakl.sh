@@ -46,7 +46,7 @@ def fayoujian(wenjian):
     s.quit()
 
 if __name__=="__main__":
-#    wangzhi=sys.argv[1]
+    wangzhi=sys.argv[1]
     tmpfolder=time.strftime("%Y%m%d_%H%M%S")
     subprocess.check_call('mkdir /root/py/createmp3/rawfile/%s'%tmpfolder,shell=True)
     os.chdir('/root/py/createmp3/rawfile/%s'%tmpfolder)
